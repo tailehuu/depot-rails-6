@@ -23,7 +23,7 @@ Things you may want to cover:
 
 * ...
 
-# Notes
+# Take Away
 
 ## Chapter 6
 
@@ -40,8 +40,35 @@ Things you may want to cover:
 - Validates
 - Fixtures
 - Minitest vs rspec ??
+- Method/function/helper
+  - `cycle`
+  - `strip_tags`
+  - `truncate`
 - Command
   - `rails test` == `rt`
   - `rails test:models`
   - `rails test:controllers`
   - `rails test test/models/product_test.rb`
+  - `rails test test/models/product_test.rb:35`
+
+## Chapter 8
+
+- [Caching](https://guides.rubyonrails.org/v2.3/caching_with_rails.html)
+  - Basic caching
+  - Page caching
+  - Action caching
+  - Fragment caching
+  - Sweepers
+- Method/function/helper
+  - `sanitize`
+  - `number_to_currency`
+  - `Product.order(:title) vs Product.order('title ASC)`
+- Minitest
+  - assert
+  - assert_equal
+  - assert_difference
+  - assert_response
+  - assert_select
+- Command
+  - Toggle development mode caching on/off `rails dev:cache`
+  - Generate `Store` controller with `index` action: `rails generate controller Store index`
