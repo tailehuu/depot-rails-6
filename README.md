@@ -72,3 +72,17 @@ Things you may want to cover:
 - Command
   - Toggle development mode caching on/off `rails dev:cache`
   - Generate `Store` controller with `index` action: `rails generate controller Store index`
+
+## Chapter 9
+
+- Term
+  - `controllers/concerns/*`: sharing code among controllers
+  - throw/catch vs raise/rescue
+- Method/function/helper
+  - `button_to ...`, POST method
+  - `link_to ...`, GET method
+- Minitest
+  - follow_redirect!
+- Command
+  - references & belongs_to: `rails g scaffold LineItem product:references cart:belongs_to`
+  - (actually it's the same haha)
