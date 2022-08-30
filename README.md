@@ -86,3 +86,12 @@ Things you may want to cover:
 - Command
   - references & belongs_to: `rails g scaffold LineItem product:references cart:belongs_to`
   - (actually it's the same haha)
+
+## Chapter 10
+
+- Term
+  - `product_path` vs `product_url`
+- Command
+  - Rollback migration `rails db:rollback`
+  - Migration status `rails db:migrate:status`
+  - Clear logs test `rails log:clear LOGS=test`
