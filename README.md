@@ -95,3 +95,17 @@ Things you may want to cover:
   - Rollback migration `rails db:rollback`
   - Migration status `rails db:migrate:status`
   - Clear logs test `rails log:clear LOGS=test`
+
+## Chapter 11
+
+- Term
+  - Action Cable
+  - Channel, stream
+  - Want to Google something? Wait, let's use Ruby Interactive - `ri`
+    - `rvm docs generate all`
+    - `ri '.order'`
+- Method/function/helper
+  - `escape_javascript() or j()`
+  - `render_to_string()`
+- Command
+  - Generate product's channel `rails generate channel products`
