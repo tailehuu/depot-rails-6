@@ -109,3 +109,19 @@ Things you may want to cover:
   - `render_to_string()`
 - Command
   - Generate product's channel `rails generate channel products`
+
+## Chapter 12
+
+- Term
+  - `enum` in ApplicationRecord
+- Method/function/helper
+  - `form_with`
+  - `form.text_field`
+  - `form.number_field`
+  - `form.select`
+  - `form.submit`
+  - `stale?` from actionpack. Use for caching
+- Command
+  - Default type is `string`, no need to add for example `name:string`: `rails g scaffold Order name address:text email pay_type:integer`
+  - references: `rails g migration add_order_to_line_item order:references`
+  - `rails dbconsole`
