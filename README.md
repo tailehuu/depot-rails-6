@@ -125,3 +125,20 @@ Things you may want to cover:
   - Default type is `string`, no need to add for example `name:string`: `rails g scaffold Order name address:text email pay_type:integer`
   - references: `rails g migration add_order_to_line_item order:references`
   - `rails dbconsole`
+
+## Chapter 13
+
+- Term
+  - `React`: 
+    - React is a javascript view library designed to quickly create dynamic user interfaces.
+    - The core concept in React is `components`
+    - A component is a view, backed by some sort of `state`
+    - When the state changes, the view re-renders
+    - The view can behave differently depending on the current state inside the component
+  - `Webpack`: is a tool to manage the javascript files that we write.
+  - `Webpacker`: Rails includes Webpacker, which provides configuration for Webpack. It's a gem.
+  - `Turbolinks`: 
+    - `turbolinks:load`
+- Method/function/helper
+  - `config.filter_parameters += [ :credit_card_number ]` in `config/application.rb`
+- Command
