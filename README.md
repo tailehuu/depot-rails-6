@@ -144,3 +144,12 @@ Things you may want to cover:
 - Command
   - Run system test: `rails test:system`
   - System test = End-to-end testing = Automation Testing
+
+## Chapter 14
+
+- Term
+  - `Action Mailer`
+- Method/function/helper
+  - `.deliver_now`
+  - `.deliver_later`
+- Command

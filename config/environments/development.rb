@@ -36,6 +36,13 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
+  # delivery_method = :smtp, :sendmail or :test
+  # default:
+  #   test: :test
+  #   development: :smtp
+  #   production: :smtp
+  config.action_mailer.delivery_method = :test
+
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
