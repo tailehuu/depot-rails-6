@@ -142,3 +142,5 @@ Things you may want to cover:
 - Method/function/helper
   - `config.filter_parameters += [ :credit_card_number ]` in `config/application.rb`
 - Command
+  - Run system test: `rails test:system`
+  - System test = End-to-end testing = Automation Testing

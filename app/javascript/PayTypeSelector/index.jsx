@@ -30,7 +30,7 @@ class PayTypeSelector extends React.Component {
       <div>
         <div className="field">
           <label htmlFor="order_pay_type">Pay type</label>
-          <select id="pay_type"
+          <select id="order_pay_type"
                   onChange={this.onPayTypeSelected}
                   name="order[pay_type]">
             <option value="">Select a payment method</option>
