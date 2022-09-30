@@ -180,6 +180,17 @@ Things you may want to cover:
 - Term
 - Method/function/helper
   - `has_secure_password`
+  - `before_action` vs `before_filter`
+    - both is the same/alias
+    - `before_filter` removed in Rails `5.1`
+  - `skip_before_action` vs `skip_before_filter`
+    - same above
+  - Testing
+    - model:      `ActiveSupport::TestCase`
+    - controller: `ActionDispatch::IntegrationTest`
+    - mailer:     `ActionMailer::TestCase`
+    - job:        `ActiveJob::TestCase`
+    - system:     `ActionDispatch::SystemTestCase`
 - Command
   - `rails generate scaffold User name:string password:digest`
   - `rails generate controller Sessions new create destroy`
