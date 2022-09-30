@@ -22,5 +22,8 @@ module DepotRails6
     # allow use files/classes in lib
     # no need: require 'something'
     config.autoload_paths << "#{root}/lib"
+
+    # react will use the same locales
+    config.middleware.use I18n::JS::Middleware
   end
 end

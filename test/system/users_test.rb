@@ -33,13 +33,4 @@ class UsersTest < ApplicationSystemTestCase
 
     assert_text "User #{@user.name} was successfully updated"
   end
-
-  test "destroying a User" do
-    visit users_url
-    page.accept_confirm do
-      click_on "Destroy", match: :first
-    end
-
-    assert_text "User was successfully destroyed"
-  end
 end
