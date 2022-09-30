@@ -149,7 +149,16 @@ Things you may want to cover:
 
 - Term
   - `Action Mailer`
+  - `Active Job`
+  - How to use files in `lib` dir?
+    - `config.autoload_paths << "#{root}/lib"` in `config/application.rb`
 - Method/function/helper
-  - `.deliver_now`
-  - `.deliver_later`
+  - Mailer
+    - `.deliver_now`
+    - `.deliver_later`
+  - Job
+    - `.perform_now`
+    - `.perform_later`
 - Command
+  - Generate mailer: `rails generate mailer Order received shipped`
+  - Generate job:    `rails generate job charge_order`

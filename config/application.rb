@@ -18,5 +18,9 @@ module DepotRails6
 
     # NEVER store or log credit card numbers
     config.filter_parameters += [ :credit_card_number ]
+
+    # allow use files/classes in lib
+    # no need: require 'something'
+    config.autoload_paths << "#{root}/lib"
   end
 end
