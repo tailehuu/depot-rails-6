@@ -114,12 +114,24 @@ Things you may want to cover:
 
 - Term
   - `enum` in ApplicationRecord
-- Method/function/helper
-  - `form_with`
-  - `form.text_field`
-  - `form.number_field`
-  - `form.select`
-  - `form.submit`
+  - Method/function/helper
+    - form_with
+      ```
+        form_with(model: user, local: true) do |form|
+          form.text_field ...
+          form.number_field ...
+          form.select ...
+          form.submit ...
+        end
+      ```
+    - form_tag
+      ```
+        form_tag do
+          text_field_tag ...
+          password_field_tag ...
+          submit_tag ...
+        end
+      ```
   - `stale?` from actionpack. Use for caching
 - Command
   - Default type is `string`, no need to add for example `name:string`: `rails g scaffold Order name address:text email pay_type:integer`
@@ -162,3 +174,16 @@ Things you may want to cover:
 - Command
   - Generate mailer: `rails generate mailer Order received shipped`
   - Generate job:    `rails generate job charge_order`
+
+## Chapter 15
+
+- Term
+- Method/function/helper
+  - `has_secure_password`
+- Command
+  - `rails generate scaffold User name:string password:digest`
+  - `rails generate controller Sessions new create destroy`
+  - `rails generate controller Admin index`
+  - routes
+    - `rails routes`
+    - `http://localhost:3000/rails/info/routes`
