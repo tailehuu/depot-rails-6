@@ -25,7 +25,7 @@ class SessionsControllerTest < ActionDispatch::IntegrationTest
   test "should get destroy" do
     delete logout_url
 
-    assert_redirected_to store_index_url
+    assert_redirected_to store_index_url(locale: I18n.locale)
     assert_equal flash[:notice], 'Logged out'
   end
 end
