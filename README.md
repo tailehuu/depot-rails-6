@@ -198,3 +198,30 @@ Things you may want to cover:
   - routes
     - `rails routes`
     - `http://localhost:3000/rails/info/routes`
+
+## Chapter 16
+
+- Term
+  - gem `i18n-js`
+    - copy locale files to js files to allow using the same localization
+- Method/function/helper
+- Command
+
+## Chapter 17
+
+- Term
+  - `Action Mailbox`
+    - to receive emails
+  - `Action Text`
+    - store rich text
+  - `Active Storage`
+    - the place to store email. e.g: AWS S3, GCP, Azure Storage or local 
+- Method/function/helper
+  - `.created_at.to_formatted_s(:long)`
+  - `has_rich_text :response`
+- Command
+  - `rails action_mailbox:install`
+  - `rails generate mailbox support`
+  - Action MailBox - Conductor
+    - `http://localhost:3000/rails/conductor/action_mailbox/inbound_emails`
+  - `rails action_text:install`
